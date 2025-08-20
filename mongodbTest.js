@@ -1,7 +1,7 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
 // Directly using your connection string
-const uri = "mongodb+srv://riteshchandra122:lzFflIC8lvphHRjj@cluster0.yuxmzkc.mongodb.net/test";
+const uri = "mongodb+srv://{username}:{password}.{id}.mongodb.net/test";
 
 const client = new MongoClient(uri, {
   serverApi: {
@@ -20,4 +20,5 @@ async function run() {
     await client.close();
   }
 }
+
 run().catch(console.dir);
