@@ -7,6 +7,3 @@
 "# personalized_subscription_boxgenerator" 
 "# personalized_subscription_box_generator" 
 "# personalized-subscription-box" 
-"# zithara_project" 
-"# zithara_project" 
-
